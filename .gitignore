@@ -5,4 +5,5 @@
 .directory
 .env
 .kateproject*
+/aws.php
 /vendor

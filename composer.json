@@ -11,12 +11,8 @@
     },
     "autoload": {
         "files": [
+            "helpers.php",
             "aws.php"
-        ]
-    },
-    "autoload-dev": {
-        "files": [
-            "helpers.php"
         ]
     },
     "config": {

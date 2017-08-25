@@ -1,0 +1,21 @@
+<?php
+
+/** AWS settings */
+
+// Global
+define('ACCOUNT_ID', '123456789012');
+define('VERSION', 'latest');
+define('REGION', 'eu-central-1');
+
+// Cognito user pool
+define('COGNITO_POOL_ID', 'eu-central-1_abcDEFg');
+define('COGNITO_CLIENT_ID', '1a2b3c4d5e6f7g8h9i0j1k2l3k');
+define('COGNITO_USER', 'test@example.com');
+define('COGNITO_PASSWORD', 'Secret12345');
+define('COGNITO_TMP_PASSWORD', 'ChangeMe2017'); // Temporary password given the first time you register
+
+// Cognito identity pool
+define('COGNITO_IDENTITY_POOL_ID', 'eu-central-1:aaaaaaaa-1111-bbbb-2222-cccccccccccc');
+
+// S3
+define('BUCKET_NAME', 'my-bucket');
