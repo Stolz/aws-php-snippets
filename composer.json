@@ -1,0 +1,26 @@
+{
+    "name": "stolz/aws-php-snippets",
+    "description": "AWS PHP snippets",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "aws/aws-sdk-php": "^3.33"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "files": [
+            "aws.php"
+        ]
+    },
+    "autoload-dev": {
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}

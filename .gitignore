@@ -1,0 +1,8 @@
+*.kate-swp
+*.orig
+*~
+.*~
+.directory
+.env
+.kateproject*
+/vendor
